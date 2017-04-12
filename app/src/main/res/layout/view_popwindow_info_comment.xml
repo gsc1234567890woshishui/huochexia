@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim134"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/item_popupwindows_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim134"
+                android:background="@drawable/sl_btn_popupwindows"
+                android:textColor="@color/t505050"
+                android:textSize="@dimen/txt46" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim2"
+            android:background="@color/tdddddd" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim134"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/item_popupwindows_info_reply"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim134"
+                android:background="@drawable/sl_btn_popupwindows"
+                android:text="回复"
+                android:textColor="@color/t505050"
+                android:textSize="@dimen/txt46" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim2"
+            android:background="@color/tdddddd" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim38"
+            android:background="@color/tf8f8f8" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim2"
+            android:background="@color/tdddddd" />
+
+        <Button
+            android:id="@+id/item_popupwindows_info_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim134"
+            android:background="@drawable/sl_btn_popupwindows"
+            android:text="取消"
+            android:textColor="@color/t505050"
+            android:textSize="@dimen/txt46" />
+    </LinearLayout>
+
+</RelativeLayout>

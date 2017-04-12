@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_activity_etc_present"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:orientation="vertical"
+   >
+    <include layout="@layout/comm_title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="ETC全国29省联网，11省市享受折扣!"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#d0011b"
+        android:textSize="15sp"
+        />
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic_favorable"
+        android:layout_gravity="center_horizontal"
+
+        />
+    <LinearLayout
+        android:layout_gravity="right"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_understand"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="了解开卡流程"
+            android:textSize="16sp"
+            android:textColor="#12b6f6"
+
+            />
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" >>"
+            android:textColor="#12b6f6"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_pay"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="35dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/shape_coast"
+            android:gravity="center"
+            android:text="一键开卡"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

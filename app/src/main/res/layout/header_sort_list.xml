@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_current_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dim15"
+            android:paddingLeft="@dimen/dim40"
+            android:paddingTop="@dimen/dim28"
+            android:text="当前城市"
+            android:background="@color/tf8f8f8"
+            android:textColor="@color/t333333"
+            android:textSize="@dimen/txt36" />
+
+        <TextView
+            android:id="@+id/tv_current_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/dim45"
+            android:paddingLeft="@dimen/dim35"
+            android:paddingTop="@dimen/dim45"
+            android:textColor="@color/t333333"
+            android:textSize="@dimen/txt42" />
+
+    </LinearLayout>
+
+</LinearLayout>

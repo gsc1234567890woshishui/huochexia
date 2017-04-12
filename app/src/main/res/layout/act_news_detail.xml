@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include layout="@layout/comm_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:fadingEdge="none">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt40"
+            android:textColor="#545454"
+            android:layout_marginTop="@dimen/dim34"
+            android:layout_marginLeft="@dimen/dim36"
+            android:layout_marginRight="@dimen/dim42"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="@dimen/dim25" />
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/dim31"
+    android:paddingRight="@dimen/dim32"
+    android:paddingTop="@dimen/dim30">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dim3"
+        android:background="@drawable/bg_home_list_item"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dim20"
+            android:paddingTop="@dimen/dim32">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rl_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dim100"
+                    android:layout_marginLeft="@dimen/dim35"
+                    >
+                    <!--android:layout_toRightOf="@id/iv_tag"-->
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dim210"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_start_city"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:maxLength="5"
+                            android:singleLine="true"
+                            android:text="杭州市"
+                            android:textColor="#333333"
+                            android:textSize="@dimen/txt42" />
+
+                        <TextView
+                            android:id="@+id/tv_start_area"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:ellipsize="end"
+                            android:includeFontPadding="false"
+                            android:singleLine="true"
+                            android:text="天堂软件园区"
+                            android:textColor="#333333"
+                            android:textSize="@dimen/txt42" />
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dim245"
+                        android:layout_marginRight="@dimen/dim90">
+
+                        <ImageView
+                            android:layout_width="@dimen/dim181"
+                            android:layout_height="@dimen/dim9"
+                            android:layout_below="@id/tv_time"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_time_online" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dim210"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dim486"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_end_city"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:maxLength="4"
+                            android:singleLine="true"
+                            android:text="南昌市"
+                            android:textColor="#333333"
+                            android:textSize="@dimen/txt42" />
+
+                        <TextView
+                            android:id="@+id/tv_end_area"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:ellipsize="end"
+                            android:includeFontPadding="false"
+                            android:singleLine="true"
+                            android:text="高新开发区"
+                            android:textColor="#333333"
+                            android:textSize="@dimen/txt42" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_navi_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dim35"
+                    android:layout_marginRight="@dimen/dim5"
+                    android:layout_marginTop="@dimen/dim35"
+                    android:background="@drawable/bg_hurry_navi"
+                    android:paddingBottom="@dimen/dim20"
+                    android:paddingLeft="@dimen/dim40"
+                    android:paddingRight="@dimen/dim40"
+                    android:paddingTop="@dimen/dim21">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:includeFontPadding="false"
+                        android:text="预计里程："
+                        android:textColor="#646464"
+                        android:textSize="@dimen/txt39" />
+
+                    <TextView
+                        android:id="@+id/tv_length"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:text="1500km"
+                        android:textColor="#3c3c3c"
+                        android:textSize="@dimen/txt39" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_navi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="@dimen/dim39"
+                            android:layout_height="@dimen/dim39"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_location" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dim10"
+                            android:includeFontPadding="false"
+                            android:text="导航"
+                            android:textColor="#00b8f1"
+                            android:textSize="@dimen/txt39" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="@dimen/dim62">
+
+                <ImageView
+                    android:id="@+id/iv_phone"
+                    android:layout_width="@dimen/dim123"
+                    android:layout_height="@dimen/dim123"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_phone" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim1"
+            android:background="#e8e8e8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim95"
+            android:background="@drawable/bg_home_list_item_down"
+            android:paddingLeft="@dimen/dim32"
+            android:paddingRight="@dimen/dim32">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="车型："
+                    android:textColor="#787878"
+                    android:textSize="@dimen/txt35" />
+
+                <TextView
+                    android:id="@+id/tv_car_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="高栏车"
+                    android:textColor="#787878"
+                    android:textSize="@dimen/txt35" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="车长："
+                    android:textColor="#787878"
+                    android:textSize="@dimen/txt35" />
+
+                <TextView
+                    android:id="@+id/tv_car_length"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="9.3米"
+                    android:textColor="#787878"
+                    android:textSize="@dimen/txt35" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="载重："
+                    android:textColor="#787878"
+                    android:textSize="@dimen/txt35" />
+
+                <TextView
+                    android:id="@+id/tv_car_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="30吨以上"
+                    android:textColor="#787878"
+                    android:textSize="@dimen/txt35" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

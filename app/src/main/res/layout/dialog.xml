@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="26dp"
+        android:text="1.车牌号输入改为软键盘选择输入；\n2.初始密码登录强制更改密码；\n3.司机提现增加短信验证;\n4.增加客服电话展示；\n5.新增站内信推送功能。"
+
+        />
+
+
+
+</LinearLayout>

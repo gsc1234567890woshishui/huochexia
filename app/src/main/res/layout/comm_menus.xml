@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_menu_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/menu_color"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dim3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/tdfdfdf"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/menu_color"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim17"
+        android:paddingTop="@dimen/dim15">
+
+        <RelativeLayout
+            android:id="@+id/rl_menu1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im_menu1_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sl_menus1_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim8"
+                    android:text=""
+                    android:textColor="@drawable/sl_menus_name"
+                    android:textSize="@dimen/txt33" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/rl_menu5"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/im_menu5_icon"-->
+                    <!--android:layout_width="@dimen/dim64"-->
+                    <!--android:layout_height="@dimen/dim64"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--android:contentDescription="@string/app_name"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/sl_menus5_icon" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="@dimen/dim15"-->
+                    <!--android:text="抢抢抢"-->
+                    <!--android:textColor="@drawable/sl_menus_name"-->
+                    <!--android:textSize="@dimen/txt33" />-->
+            <!--</LinearLayout>-->
+        <!--</RelativeLayout>-->
+
+        <RelativeLayout
+            android:id="@+id/rl_menu2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im_menu2_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sl_menus2_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim8"
+                    android:text="运单"
+                    android:textColor="@drawable/sl_menus_name"
+                    android:textSize="@dimen/txt33" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_menu2_news"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dim33"
+                android:layout_marginLeft="@dimen/dim50"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:minWidth="@dimen/dim33"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt25"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_menu3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im_menu3_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sl_menus3_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim8"
+                    android:text="钱包"
+                    android:textColor="@drawable/sl_menus_name"
+                    android:textSize="@dimen/txt33" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_menu4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im_menu4_icon"
+                    android:layout_width="@dimen/dim65"
+                    android:layout_height="@dimen/dim69"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sl_menus4_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim8"
+                    android:text="个人"
+                    android:textColor="@drawable/sl_menus_name"
+                    android:textSize="@dimen/txt33" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_menu4_news"
+                android:layout_width="@dimen/dim17"
+                android:layout_height="@dimen/dim17"
+                android:layout_marginLeft="@dimen/dim55"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt28"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

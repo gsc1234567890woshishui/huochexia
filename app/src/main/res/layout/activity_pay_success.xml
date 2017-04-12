@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pay_success"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zjwocai.qundui.activity.mine.PaySuccessActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/t12b7f5"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim210"
+        android:background="@color/t12b7f5">
+        <RelativeLayout
+
+            android:id="@+id/rl_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/iv_cancle"
+                android:layout_width="@dimen/dim53"
+                android:layout_height="@dimen/dim42"
+                android:layout_marginTop="39dp"
+                android:layout_marginLeft="@dimen/dim35"
+                android:src="@drawable/ic_title_left" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/dim35"
+            android:layout_alignParentRight="true">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机充值"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/txt52"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp" />
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_pay_success"
+        android:scaleType="fitXY"
+        />
+
+</LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/tv_success"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="完成"
+        android:textColor="@color/white"
+        android:background="@drawable/pay_success_bg"
+        android:textSize="22sp"
+android:gravity="center"
+
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim111"
+        android:layout_marginRight="@dimen/dim111"
+        android:background="@drawable/shape_info_reward_pop"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dim61"
+            android:text="请选择“所属地”与“车牌号”"
+            android:textColor="@color/t12b7f5"
+            android:textSize="@dimen/txt40" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dim49"
+            android:layout_marginTop="@dimen/dim70">
+
+            <TextView
+                android:id="@+id/tv_number"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim138"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/dim55"
+                android:layout_marginRight="@dimen/dim55"
+                android:background="@drawable/shape_reward_edit_text"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:textColor="#646464"
+                android:textSize="@dimen/txt49" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim131"
+        android:layout_marginTop="@dimen/dim285"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dim45"
+        android:paddingRight="@dimen/dim35">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="取消"
+            android:textColor="#797979"
+            android:textSize="@dimen/txt43" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:includeFontPadding="false"
+            android:text="请选择车牌号"
+            android:textColor="#515151"
+            android:textSize="@dimen/txt46" />
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="@dimen/dim77"
+            android:layout_height="@dimen/dim46"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_backspace" />
+
+    </RelativeLayout>
+
+    <com.zjwocai.qundui.widgets.ScrollDisabledGridView
+        android:id="@+id/sdgv_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tececec"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:horizontalSpacing="@dimen/dim2"
+        android:numColumns="6"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/dim2" />
+
+</LinearLayout>

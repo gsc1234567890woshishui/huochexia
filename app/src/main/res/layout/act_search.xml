@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim220"
+        android:background="@color/t12b7f5">
+
+        <RelativeLayout
+            android:id="@+id/rl_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dim50"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/iv_left"
+                android:layout_width="@dimen/dim53"
+                android:layout_height="@dimen/dim42"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dim35"
+                android:src="@drawable/ic_title_left" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginLeft="@dimen/dim116"
+            android:layout_marginRight="@dimen/dim35"
+            android:layout_marginTop="@dimen/dim90"
+            android:layout_marginBottom="@dimen/dim20"
+            android:paddingLeft="@dimen/dim35"
+            android:paddingRight="@dimen/dim35"
+            android:background="@drawable/bg_search_bar">
+
+            <RelativeLayout
+                android:id="@+id/rl_search_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dim40">
+
+                <ImageView
+                    android:id="@+id/iv_search_search"
+                    android:layout_width="@dimen/dim36"
+                    android:layout_height="@dimen/dim35"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_search_bar"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:layout_toRightOf="@id/rl_search_icon"
+                android:layout_marginLeft="@dimen/dim20"
+                android:hint="可输入单号、品名、收货方、城市等"
+                android:textSize="@dimen/txt40"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/t8f9091"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_search_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dim50"
+            android:layout_marginBottom="@dimen/dim20"
+            android:layout_marginRight="@dimen/dim35"
+            android:layout_alignParentRight="true">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_no_data"
+                android:layout_width="@dimen/dim226"
+                android:layout_height="@dimen/dim290"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_no_data" />
+
+            <com.handmark.pulltorefresh.library.PullToRefreshListView
+                android:id="@+id/ptrlv_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#e7e7e7"
+                android:dividerHeight="@dimen/dim1"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:listSelector="@android:color/transparent"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:scrollingCache="false"></com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_history"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim93"
+            android:paddingLeft="@dimen/dim33"
+            android:background="#f8f8f8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/txt35"
+                android:textColor="#666666"
+                android:text="搜索历史"/>
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_search_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#e7e7e7"
+            android:dividerHeight="@dimen/dim1"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:scrollingCache="false"></ListView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

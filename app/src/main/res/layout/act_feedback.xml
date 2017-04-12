@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<include layout="@layout/comm_title"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/t12b7f5">
+        <ImageView
+            android:id="@+id/iv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_title_left"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="@dimen/dim35"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="意见反馈"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/txt52"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim37"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="#e9e9e9"/>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim560"
+        android:padding="@dimen/dim35"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/et_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:textColor="#000000"
+            android:textSize="@dimen/txt40"
+            android:gravity="left|top" />
+        
+        <LinearLayout
+            android:id="@+id/ll_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:alpha="0.8">
+            
+            <ImageView
+            android:layout_width="@dimen/dim34"
+            android:layout_height="@dimen/dim35"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_write" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#787878"
+                android:textSize="@dimen/txt40"
+                android:layout_marginLeft="@dimen/dim25"
+                android:text="请输入您的反馈"/>
+            
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_enter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim127"
+        android:layout_marginLeft="@dimen/dim35"
+        android:layout_marginRight="@dimen/dim35"
+        android:layout_marginTop="@dimen/dim72"
+        android:background="@drawable/shape_round_login_btn"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/txt49" />
+
+</LinearLayout>

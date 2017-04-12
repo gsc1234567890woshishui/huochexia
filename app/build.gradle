@@ -1,0 +1,131 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.antfortune.freeline'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '24.0.3'
+
+    defaultConfig {
+        applicationId "com.zjwocai.qundui"
+        minSdkVersion 15
+        targetSdkVersion 20
+        versionCode 206
+        multiDexEnabled true
+        versionName "2.0.6"
+
+
+        ndk {
+            abiFilters "armeabi" //输出指定三种abi体系结构下的so库，目前可有可无。
+
+        }
+    }
+
+    signingConfigs {
+
+        myConfig {
+            storeFile file("../hcxsign.jks")
+            storePassword "753200"
+            keyAlias "huochexia"
+            keyPassword "753200"
+        }
+
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.myConfig
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+
+            signingConfig signingConfigs.myConfig
+        }
+    }
+
+    productFlavors {
+
+        normal {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "normal"]
+        }
+        goapk {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "goapk"]
+        }
+        UC {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "UC"]
+        }
+        hiapk {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "hiapk"]
+        }
+        baidu {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
+        }
+        wandoujia {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"]
+        }
+        rongcloud {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "rongcloud"]
+        }
+        _360 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "_360"]
+        }
+        QQ {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "QQ"]
+        }
+        appchina {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "appchina"]
+        }
+        weibo {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "weibo"]
+        }
+        mi {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "mi"]
+        }
+        huawei {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "huawei"]
+        }
+        suning {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "suning"]
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    lintOptions{
+        checkReleaseBuilds false;
+    }
+  dexOptions{
+      incremental true
+      javaMaxHeapSize "4g"
+  }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':teamlibrary')
+    compile project(':lib:pingpp')
+    compile(name: 'comm_library_pulltorefresh', ext: 'aar')
+    compile 'me.grantland:autofittextview:0.2.+'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.android.support:appcompat-v7:23.2.0'
+    compile files('libs/AMap3DMap_4.0.1_AMapNavi_1.9.3_AMapLocation_3.0.0_20161014.jar')
+    compile files('libs/AMap_Search_V3.3.0_20160616.jar')
+    provided 'org.greenrobot:eventbus:3.0.0'
+    provided 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.android.support:recyclerview-v7:23.2.0'
+    compile 'com.jph.takephoto:takephoto_library:4.0.3'
+    compile 'com.android.support:multidex:1.0.0'
+
+}

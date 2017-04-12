@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim150"
+        android:background="@color/t12b7f5">
+
+        <LinearLayout
+            android:id="@+id/ll_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dim35">
+
+            <ImageView
+                android:id="@+id/iv_left"
+                android:layout_width="@dimen/dim36"
+                android:layout_height="@dimen/dim49"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_now_city"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tv_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dim20"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="@dimen/txt43"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="抢抢抢"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/txt52" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim125"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dim15"
+            android:layout_marginRight="@dimen/dim15"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLength="4"
+                android:singleLine="true"
+                android:text="始发地"
+                android:textColor="@drawable/sl_hurry_tab_text"
+                android:textSize="@dimen/txt43" />
+
+            <ImageView
+                android:layout_width="@dimen/dim29"
+                android:layout_height="@dimen/dim17"
+                android:layout_marginLeft="@dimen/dim15"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sl_hurry_tab" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/dim1"
+            android:layout_height="@dimen/dim70"
+            android:background="@color/line_color"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:id="@+id/ll_end"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dim15"
+            android:layout_marginRight="@dimen/dim15"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLength="4"
+                android:singleLine="true"
+                android:text="目的地"
+                android:textColor="@drawable/sl_hurry_tab_text"
+                android:textSize="@dimen/txt43" />
+
+            <ImageView
+                android:layout_width="@dimen/dim29"
+                android:layout_height="@dimen/dim17"
+                android:layout_marginLeft="@dimen/dim15"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sl_hurry_tab" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/dim1"
+            android:layout_height="@dimen/dim70"
+            android:background="@color/line_color"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:id="@+id/ll_length"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dim15"
+            android:layout_marginRight="@dimen/dim15"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLength="4"
+                android:singleLine="true"
+                android:text="车长"
+                android:textColor="@drawable/sl_hurry_tab_text"
+                android:textSize="@dimen/txt43" />
+
+            <ImageView
+                android:layout_width="@dimen/dim29"
+                android:layout_height="@dimen/dim17"
+                android:layout_marginLeft="@dimen/dim15"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sl_hurry_tab" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/dim1"
+            android:layout_height="@dimen/dim70"
+            android:background="@color/line_color"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:id="@+id/ll_type"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dim15"
+            android:layout_marginRight="@dimen/dim15"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLength="4"
+                android:singleLine="true"
+                android:text="车型"
+                android:textColor="@drawable/sl_hurry_tab_text"
+                android:textSize="@dimen/txt43" />
+
+            <ImageView
+                android:layout_width="@dimen/dim29"
+                android:layout_height="@dimen/dim17"
+                android:layout_marginLeft="@dimen/dim15"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sl_hurry_tab" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/line_color"
+        android:contentDescription="@string/app_name" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim25" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/dim35"
+        android:paddingLeft="@dimen/dim75"
+        android:paddingTop="@dimen/dim27">
+
+        <ImageView
+            android:layout_width="@dimen/dim46"
+            android:layout_height="@dimen/dim37"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_notice" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim38"
+            android:text="今日共发货"
+            android:textColor="@color/t787878"
+            android:textSize="@dimen/txt40" />
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/tf1565e"
+            android:textSize="@dimen/txt40" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单，交易成功"
+            android:textColor="@color/t787878"
+            android:textSize="@dimen/txt40" />
+
+        <TextView
+            android:id="@+id/tv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/tf1565e"
+            android:textSize="@dimen/txt40" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单！"
+            android:textColor="@color/t787878"
+            android:textSize="@dimen/txt40" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/ptrlv_orders"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:scrollingCache="false" />
+
+        <ImageView
+            android:id="@+id/iv_no_data"
+            android:layout_width="@dimen/dim226"
+            android:layout_height="@dimen/dim290"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_no_data" />
+
+    </RelativeLayout>
+
+
+    <include layout="@layout/comm_menus" />
+
+</LinearLayout>

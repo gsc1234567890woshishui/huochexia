@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/dim926"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim56"
+            android:gravity="center"
+            android:text="请点击选择车辆"
+            android:textColor="#a1a1a1"
+            android:textSize="@dimen/txt44"
+            android:visibility="gone" />
+
+        <com.zjwocai.qundui.widgets.ScrollDisabledListView
+            android:id="@+id/sdlv_cars"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:scrollingCache="false">
+
+        </com.zjwocai.qundui.widgets.ScrollDisabledListView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim2"
+            android:layout_marginTop="@dimen/dim72"
+            android:background="#f6f6f6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim172">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dim103"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dim90"
+                android:layout_weight="1"
+                android:background="@drawable/shape_cancel"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/t12b7f5"
+                android:textSize="@dimen/txt44" />
+
+            <View
+                android:layout_width="@dimen/dim154"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/tv_affirm"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dim103"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/dim90"
+                android:layout_weight="1"
+                android:background="@drawable/shape_round_login_btn"
+                android:gravity="center"
+                android:text="确认"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt44" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

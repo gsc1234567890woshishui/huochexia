@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_popupwindows_transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim71"
+        android:layout_marginRight="@dimen/dim71"
+        android:layout_marginTop="@dimen/dim265"
+        android:background="@drawable/shape_info_reward_pop"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim67"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已发送到“"
+                android:textColor="@color/t656565"
+                android:textSize="@dimen/txt40" />
+
+            <TextView
+                android:id="@+id/tv_popupwindows_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textColor="@color/t12b7f5"
+                android:textSize="@dimen/txt40" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="”"
+                android:textColor="@color/t656565"
+                android:textSize="@dimen/txt40" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim65"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/et_popupwindows_code"
+                android:layout_width="@dimen/dim477"
+                android:layout_height="@dimen/dim143"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/shape_reward_edit_text"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:includeFontPadding="false"
+                android:paddingLeft="@dimen/dim33"
+                android:hint="请输入验证码"
+                android:textColorHint="#b5b5b5"
+                android:textColor="#b5b5b5"
+                android:textSize="@dimen/txt43" />
+
+            <TextView
+                android:id="@+id/tv_popupwindows_time"
+                android:layout_width="@dimen/dim300"
+                android:layout_height="@dimen/dim143"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/dim28"
+                android:background="@drawable/shape_reward_edit_text"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="获取验证码"
+                android:textColor="#b5b5b5"
+                android:textSize="@dimen/txt43" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim2"
+            android:layout_marginTop="@dimen/dim59"
+            android:background="@color/tdddddd" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_popupwindows_reward_cancel"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dim134"
+                android:layout_weight="1"
+                android:background="@drawable/sl_btn_popupwindows"
+                android:text="取消"
+                android:textColor="#646464"
+                android:textSize="@dimen/txt46" />
+
+            <View
+                android:layout_width="@dimen/dim1"
+                android:layout_height="match_parent"
+                android:background="@color/tdddddd" />
+
+            <Button
+                android:id="@+id/btn_popupwindows_reward_enter"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dim134"
+                android:layout_weight="1"
+                android:background="@drawable/sl_btn_popupwindows"
+                android:text="确定"
+                android:textColor="#12b7f5"
+                android:textSize="@dimen/txt46" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

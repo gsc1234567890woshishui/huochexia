@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cost2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zjwocai.qundui.activity.mine.Cost2Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim210"
+        android:background="@color/t12b7f5">
+    <RelativeLayout
+        android:id="@+id/rl_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="@dimen/dim53"
+            android:layout_height="@dimen/dim42"
+            android:layout_marginTop="39dp"
+            android:layout_marginLeft="@dimen/dim35"
+            android:src="@drawable/ic_title_left" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingRight="@dimen/dim35"
+        android:layout_alignParentRight="true">
+
+
+        <TextView
+            android:id="@+id/iv_right"
+            android:text="客服"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="39dp"
+
+            />
+    </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机充值"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/txt52"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.zjwocai.qundui.util.ContainsEmojiEditText
+        android:layout_weight="1"
+        android:id="@+id/et_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_contact"
+        android:hint="请输入手机号码"
+        android:textSize="20sp"
+
+        />
+
+        <ImageView
+            android:id="@+id/iv_contact"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_linkman"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定手机号"
+        android:textSize="14sp"/>
+
+    <View
+        android:layout_marginTop="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f1f1f1"/>
+
+
+
+
+
+</LinearLayout>

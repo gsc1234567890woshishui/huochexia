@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:drawable="@drawable/goods_state_back_right" android:state_checked="true"/>
+    <item android:drawable="@drawable/goods_state_back_right" android:state_selected="true"/>
+    <item android:drawable="@drawable/shape_etc_true_trans" />
+    <!--<item android:drawable="@drawable/ic_home"/>-->
+
+
+
+</selector>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--<item android:drawable="@color/t12b7f5"  android:state_focused="true" />-->
+    <!--&lt;!&ndash; focused &ndash;&gt;-->
+    <!--<item android:drawable="@color/t12b7f5" android:state_pressed="true" />-->
+    <!--&lt;!&ndash; pressed &ndash;&gt;-->
+    <!--<item android:drawable="@color/t12b7f5" android:state_selected="true" />-->
+
+    <!--<item android:drawable="@color/t12b7f5" android:state_checked="true" />-->
+    <!--&lt;!&ndash; pressed &ndash;&gt;-->
+    <!--<item android:drawable="@color/white" />-->
+    <!--&lt;!&ndash; default &ndash;&gt;-->
+
+<!--</selector>-->

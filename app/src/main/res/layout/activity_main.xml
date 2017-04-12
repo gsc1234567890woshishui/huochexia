@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zjwocai.qundui.fragment.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/tdfdfdf"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/menu_color"
+        android:orientation="horizontal">
+
+
+        <RadioGroup
+            android:id="@+id/rgTools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rbHome"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/sl_menus1_icon"
+                android:gravity="center"
+                android:paddingLeft="0dp"
+                android:textSize="@dimen/txt33"
+                android:text="货车侠"/>
+
+            <RadioButton
+                android:id="@+id/rbShop"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="false"
+                android:drawableTop="@drawable/sl_menus2_icon"
+                android:textSize="@dimen/txt33"
+                android:gravity="center"
+                android:text="运单"/>
+
+            <RadioButton
+                android:checked="false"
+                android:id="@+id/rbMessage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:textSize="@dimen/txt33"
+                android:drawableTop="@drawable/sl_menus3_icon"
+                android:gravity="center"
+                android:text="钱包"/>
+
+            <RadioButton
+                android:checked="false"
+                android:id="@+id/rbMine"
+                android:layout_width="0dp"
+                android:textSize="@dimen/txt33"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/sl_menus4_icon"
+                android:gravity="center"
+                android:text="个人"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</LinearLayout>

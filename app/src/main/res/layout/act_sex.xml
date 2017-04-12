@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/comm_title"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim66"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_male"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim134"
+        android:paddingLeft="@dimen/dim37"
+        android:paddingRight="@dimen/dim35"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/ic_male"
+            android:layout_width="@dimen/dim49"
+            android:layout_height="@dimen/dim73"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+
+            android:src="@drawable/ic_male" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dim27"
+            android:layout_toRightOf="@id/ic_male"
+            android:includeFontPadding="false"
+            android:text="男"
+            android:textColor="#4f4f4f"
+            android:textSize="@dimen/txt43" />
+
+        <ImageView
+            android:id="@+id/iv_male_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_sex_selected" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="#e8e8e8" />
+
+    <RelativeLayout
+        android:id="@+id/rl_female"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim134"
+        android:paddingLeft="@dimen/dim37"
+        android:paddingRight="@dimen/dim35"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/ic_female"
+            android:layout_width="@dimen/dim49"
+            android:layout_height="@dimen/dim76"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_female" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dim27"
+            android:layout_toRightOf="@id/ic_female"
+            android:includeFontPadding="false"
+            android:text="女"
+            android:textColor="#4f4f4f"
+            android:textSize="@dimen/txt43" />
+
+        <ImageView
+            android:id="@+id/iv_female_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_sex_selected"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="#e8e8e8" />
+
+</LinearLayout>

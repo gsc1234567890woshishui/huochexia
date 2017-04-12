@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim210"
+        android:background="@color/t12b7f5"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="钱包"
+
+            android:textColor="#ffffff"
+            android:textSize="@dimen/txt52"
+            />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_money_bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim120"
+                android:text="余额（元）"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt37"/>
+
+            <TextView
+                android:id="@+id/tv_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt96"
+                android:layout_marginTop="@dimen/dim40"
+                android:text="0"/>
+
+            <TextView
+                android:id="@+id/tv_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="提现"
+                android:textColor="@color/t12b7f5"
+                android:textSize="@dimen/txt48"
+                android:layout_marginTop="@dimen/dim102"
+                android:layout_marginBottom="@dimen/dim96"
+                android:paddingTop="@dimen/dim31"
+                android:paddingBottom="@dimen/dim28"
+                android:paddingLeft="@dimen/dim88"
+                android:paddingRight="@dimen/dim88"
+                android:includeFontPadding="false"
+                android:background="@drawable/shape_money_btn"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_recharge"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim133"
+            android:paddingLeft="@dimen/dim35"
+            android:paddingRight="@dimen/dim35"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="充值"
+                android:textColor="#454545"
+                android:textSize="@dimen/txt43"
+                android:layout_centerVertical="true"/>
+            
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_more"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim1"
+            android:background="#e8e8e8"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_detail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim133"
+            android:paddingLeft="@dimen/dim35"
+            android:paddingRight="@dimen/dim35"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收支明细"
+                android:textColor="#454545"
+                android:textSize="@dimen/txt43"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_more"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

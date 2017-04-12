@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="content_color">#666666</color>
+    <color name="white_normal">#ffffffff</color>
+    <color name="login_button_background">#71c297</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="yellow_900">#F57F17</color>
+    <color name="yellow_600">#FDD835</color>
+    <color name="line">#ebebeb</color>
+    <color name="text_color_grey">#777777</color>
+    <color name="bg_btn">#237aec</color>
+    <color name="blue_light">#2e88ff</color>
+    <color name="colorstatus">#3da1ff</color>
+<color name="black2">#333333</color>
+    <color name="greyc">#949494</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#2f2e33</color>
+    <color name="colorAccent">#2f2e33</color>
+    <color name="t686868">#686868</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucent">#99000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="menu_color">#80f9f9f9</color>
+    <color name="menu_text_color">#22bd22</color>
+    <color name="menu_text_color_default">#c3cbc6</color>
+    <color name="line_color">#dcdcdc</color>
+    <color name="t3a3a3a">#3a3a3a</color>
+    <color name="default_bg_color">#f8f8f8</color>
+
+    <color name="grey"> #ebebeb</color>
+
+    <color name="darkgrey"> #C0C0C0</color>
+
+
+    <color name="red"> #FF0000</color>
+    <color name="blacktext">#4f4f4f</color>
+    <color name="darkyellow"> #FFCC33</color>
+
+    <color name="te3e3e3">#e3e3e3</color>
+    <color name="t3c3c3c">#3c3c3c</color>
+    <color name="t505050">#505050</color>
+    <color name="t878787">#878787</color>
+    <color name="t3d3d3d">#3d3d3d</color>
+    <color name="t46d35e">#46d35e</color>
+    <color name="t74e587">#74e587</color>
+    <color name="td7d7d7">#d7d7d7</color>
+    <color name="t22bd22">#22bd22</color>
+    <color name="tfcfcfc">#fcfcfc</color>
+    <color name="teaeaea">#eaeaea</color>
+    <color name="tececec">#ececec</color>
+    <color name="t7b7f91">#7b7f91</color>
+    <color name="t787878">#787878</color>
+    <color name="t46ce68">#46ce68</color>
+    <color name="tec8e1e">#ec8e1e</color>
+    <color name="t515151">#515151</color>
+    <color name="t5da0f4">#5da0f4</color>
+    <color name="tf67143">#f67143</color>
+    <color name="t44cb5b">#44cb5b</color>
+    <color name="tf8f8f8">#f8f8f8</color>
+    <color name="td8d8d8">#d8d8d8</color>
+    <color name="teeeeee">#eeeeee</color>
+    <color name="t666666">#666666</color>
+    <color name="tdddddd">#dddddd</color>
+    <color name="t737373">#737373</color>
+    <color name="tfde8a2">#fde8a2</color>
+    <color name="t383838">#383838</color>
+    <color name="tffe490">#ffe490</color>
+    <color name="te24a4a">#e24a4a</color>
+    <color name="t3b3b3b">#3b3b3b</color>
+    <color name="tf55e4f">#f55e4f</color>
+    <color name="te6e6e6">#e6e6e6</color>
+    <color name="t636363">#636363</color>
+    <color name="t26d347">#26d347</color>
+    <color name="t656565">#656565</color>
+    <color name="tebebeb">#ebebeb</color>
+    <color name="te0e0e0">#e0e0e0</color>
+    <color name="t24c643">#24c643</color>
+    <color name="te85c18">#e85c18</color>
+    <color name="t8d8d8d">#8d8d8d</color>
+    <color name="t808080">#808080</color>
+    <color name="tededed">#ededed</color>
+    <color name="tdedede">#dedede</color>
+    <color name="t9f9f9f">#9f9f9f</color>
+    <color name="te2e2e2">#e2e2e2</color>
+    <color name="te6292a">#e6292a</color>
+    <color name="ta2a2a2">#a2a2a2</color>
+    <color name="tc9c9c9">#c9c9c9</color>
+    <color name="tff7500">#ff7500</color>
+    <color name="tc8c8c8">#c8c8c8</color>
+    <color name="t9a9999">#9a9999</color>
+    <color name="t858585">#858585</color>
+    <color name="tff6900">#ff6900</color>
+    <color name="tdfdfdf">#dfdfdf</color>
+    <color name="teaecd7">#eaecd7</color>
+    <color name="t545454">#545454</color>
+    <color name="tff6600">#ff6600</color>
+    <color name="t8c8c8c">#8c8c8c</color>
+    <color name="tacacac">#acacac</color>
+    <color name="tffa200">#ffa200</color>
+    <color name="tcecece">#cecece</color>
+    <color name="tcccccd">#cccccd</color>
+    <color name="tff6d57">#ff6d57</color>
+    <color name="ta0a0a0">#a0a0a0</color>
+    <color name="tf9f9f9">#f9f9f9</color>
+    <color name="t818181">#818181</color>
+    <color name="tcdcdcd">#cdcdcd</color>
+    <color name="t2fb3fb">#2fb3fb</color>
+    <color name="t707070">#707070</color>
+    <color name="t3e3e3e">#3e3e3e</color>
+    <color name="t797979">#797979</color>
+    <color name="te8e8e8">#e8e8e8</color>
+    <color name="tfe8721">#fe8721</color>
+    <color name="t7f7f7f">#7f7f7f</color>
+    <color name="t8f9091">#8f9091</color>
+    <color name="td2d2d2">#d2d2d2</color>
+    <color name="tc4c4c3">#c4c4c3</color>
+    <color name="t39bb59">#39bb59</color>
+    <color name="t5e97f6">#5e97f6</color>
+    <color name="tfe4a29">#fe4a29</color>
+    <color name="t3190e8">#3190E8</color>
+    <color name="t969696">#969696</color>
+    <color name="t333333">#333333</color>
+    <color name="t3f3f3f">#3f3f3f</color>
+    <color name="tf3f3f3">#f3f3f3</color>
+    <color name="tfefefe">#fefefe</color>
+    <color name="tf1565e">#f1565e</color>
+    <color name="tb5b5b5">#b5b5b5</color>
+
+
+
+
+    <color name="t12b7f5">#12b7f5</color>
+    <color name="tf0f0f0">#f0f0f0</color>
+
+
+    <color name="t80000000">#80000000</color>
+</resources>

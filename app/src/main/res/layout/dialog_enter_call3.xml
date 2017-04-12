@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/dim926"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_white"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="如对ETC业务有疑问"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="#666666"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="3dp"
+                android:text="欢迎致电："
+                android:textStyle="bold"
+                android:textColor="#666666"
+                android:textSize="@dimen/txt40" />
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="3dp"
+                android:text="10010"
+                android:textColor="#666666"
+                android:textSize="@dimen/txt40" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim1"
+            android:layout_marginTop="10dp"
+            android:background="#e8e8e8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dim35"
+            android:paddingLeft="@dimen/dim95"
+            android:paddingRight="@dimen/dim95"
+            android:paddingTop="@dimen/dim35">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="@dimen/dim100"
+                android:layout_weight="1"
+                android:background="@drawable/shape_cancel"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dim35"
+                android:paddingLeft="@dimen/dim110"
+                android:paddingRight="@dimen/dim100"
+                android:paddingTop="@dimen/dim35"
+                android:text="取消"
+                android:textColor="@color/t12b7f5"
+                android:textSize="@dimen/txt46" />
+
+            <TextView
+                android:id="@+id/tv_enter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/shape_choose_car"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dim35"
+                android:paddingLeft="@dimen/dim110"
+                android:paddingRight="@dimen/dim110"
+                android:paddingTop="@dimen/dim35"
+                android:text="拨号"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt46" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

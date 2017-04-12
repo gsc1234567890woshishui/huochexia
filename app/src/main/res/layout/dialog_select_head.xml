@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim135"
+        android:gravity="center"
+        android:text="拍照上传"
+        android:textColor="#505050"
+        android:textSize="@dimen/txt46" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/line_color"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/select_album"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim135"
+        android:gravity="center"
+        android:text="本地上传"
+        android:textColor="#505050"
+        android:textSize="@dimen/txt46" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/line_color"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim38"
+        android:background="#f8f8f8"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/line_color"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim135"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#505050"
+        android:textSize="@dimen/txt46" />
+
+</LinearLayout>

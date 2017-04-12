@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim128"
+        android:paddingLeft="@dimen/dim33">
+
+        <TextView
+            android:id="@+id/tv_lv_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:textColor="#999999"
+            android:textSize="@dimen/txt40" />
+
+        <TextView
+            android:id="@+id/tv_lv_last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="清除历史"
+            android:textColor="#4f4f4f"
+            android:textSize="@dimen/txt40"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="@dimen/dim33"
+            android:paddingRight="@dimen/dim33">
+
+            <ImageView
+                android:layout_width="@dimen/dim48"
+                android:layout_height="@dimen/dim48"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_seaerch_delete" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

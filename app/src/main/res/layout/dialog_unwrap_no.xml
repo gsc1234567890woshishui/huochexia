@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/dim926"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_white"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim10"
+            android:background="@drawable/shape_bule" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dim94"
+            android:text="目前还未添加车辆"
+            android:textColor="#505050"
+            android:textSize="@dimen/txt40" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dim25"
+            android:text="快去增加车辆吧"
+            android:textColor="#3c3c3c"
+            android:textSize="@dimen/txt52" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim2"
+            android:layout_marginTop="@dimen/dim116"
+            android:background="#f6f6f6" />
+
+        <TextView
+            android:id="@+id/tv_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/dim31"
+            android:layout_marginTop="@dimen/dim38"
+            android:background="@drawable/shape_cancel"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dim28"
+            android:paddingLeft="@dimen/dim220"
+            android:paddingRight="@dimen/dim220"
+            android:paddingTop="@dimen/dim28"
+            android:text="确认"
+            android:textColor="@color/t12b7f5"
+            android:textSize="@dimen/txt46" />
+    </LinearLayout>
+
+
+</RelativeLayout>

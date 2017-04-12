@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim150"
+        android:background="@color/t12b7f5">
+
+        <RelativeLayout
+            android:id="@+id/rl_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/dim50">
+
+            <ImageView
+                android:id="@+id/iv_left"
+                android:layout_width="@dimen/dim53"
+                android:layout_height="@dimen/dim42"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dim35"
+                android:src="@drawable/ic_title_left" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dim20"
+            android:layout_marginLeft="@dimen/dim116"
+            android:layout_marginRight="@dimen/dim35"
+            android:layout_marginTop="@dimen/dim50"
+            android:background="@drawable/bg_search_bar"
+            android:paddingLeft="@dimen/dim35"
+            android:paddingRight="@dimen/dim35">
+
+            <RelativeLayout
+                android:id="@+id/rl_search_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dim40">
+
+                <ImageView
+                    android:id="@+id/iv_search_search"
+                    android:layout_width="@dimen/dim36"
+                    android:layout_height="@dimen/dim35"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_search_bar"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dim20"
+                android:layout_toRightOf="@id/rl_search_icon"
+                android:background="@android:color/transparent"
+                android:hint="请输入城市名称"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/t8f9091"
+                android:textSize="@dimen/txt40" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_search_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dim20"
+            android:layout_marginRight="@dimen/dim35"
+            android:layout_marginTop="@dimen/dim50">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ListView
+                android:id="@+id/lv_cities"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:divider="#e7e7e7"
+                android:dividerHeight="@dimen/dim1"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:listSelector="@android:color/transparent"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:scrollingCache="false"/>
+
+            <com.zjwocai.qundui.widgets.sortlistview.SideBar
+                android:id="@+id/sb"
+                android:layout_width="@dimen/dim68"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dim140"
+                android:layout_gravity="end|center_vertical"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_letter"
+            android:layout_width="@dimen/dim360"
+            android:layout_height="@dimen/dim360"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_choose_car"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt200"
+            android:text="A"
+            android:alpha="0.8"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

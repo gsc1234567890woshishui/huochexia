@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/comm_title"/>
+
+
+
+
+
+
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim39"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="#e6e6e6"/>
+    
+    <RelativeLayout
+        android:id="@+id/rl_type"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim133"
+        android:paddingLeft="@dimen/dim36"
+        android:paddingRight="@dimen/dim51"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_typ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="true"
+            android:text="车型"
+            android:textSize="@dimen/txt43"
+            android:textColor="#3d3d3d"/>
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginLeft="@dimen/dim151"
+            android:layout_toRightOf="@id/tv_typ"
+            android:singleLine="true"
+            android:gravity="center|left"
+            android:hint="请输入车型"
+            android:textSize="@dimen/txt43"
+            android:textColor="#a0a0a0"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_more"/>
+        
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="#e6e6e6"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_number"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim133"
+        android:paddingLeft="@dimen/dim36"
+        android:paddingRight="@dimen/dim51"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_numbe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="true"
+            android:text="车牌"
+            android:textSize="@dimen/txt43"
+            android:textColor="#3d3d3d"/>
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginLeft="@dimen/dim151"
+            android:layout_toRightOf="@id/tv_numbe"
+            android:singleLine="true"
+            android:gravity="center|left"
+            android:hint="请输入车型"
+            android:textSize="@dimen/txt43"
+            android:textColor="#a0a0a0"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_more"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="#e6e6e6"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_weight"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim133"
+        android:paddingLeft="@dimen/dim36"
+        android:paddingRight="@dimen/dim51"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="true"
+            android:text="载重"
+            android:textSize="@dimen/txt43"
+            android:textColor="#3d3d3d"/>
+
+        <TextView
+            android:id="@+id/tv_weights"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginLeft="@dimen/dim151"
+            android:layout_marginRight="@dimen/dim105"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/tv_weight"
+            android:gravity="center|left"
+            android:hint="请输入载重量"
+            android:textSize="@dimen/txt43"
+            android:textColor="#a0a0a0"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_more"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="#e6e6e6"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim39"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="#e6e6e6"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_insurance"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim133"
+        android:paddingLeft="@dimen/dim36"
+        android:paddingRight="@dimen/dim51"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_insurance_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="true"
+            android:text="车险"
+            android:textSize="@dimen/txt43"
+            android:textColor="#3d3d3d"/>
+
+        <TextView
+            android:id="@+id/tv_insurance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginLeft="@dimen/dim151"
+            android:layout_marginRight="@dimen/dim151"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/tv_insurance_hint"
+            android:gravity="center|left"
+            android:hint="请选择车险到期时间"
+            android:textSize="@dimen/txt43"
+            android:textColor="#a0a0a0"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_more"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_enter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim127"
+        android:layout_marginLeft="@dimen/dim35"
+        android:layout_marginRight="@dimen/dim35"
+        android:layout_marginTop="@dimen/dim164"
+        android:background="@drawable/shape_round_login_btn"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/txt49" />
+
+
+
+</LinearLayout>

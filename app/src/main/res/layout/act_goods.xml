@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/comm_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim120"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/rl_all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="56dp"
+                android:layout_height="28dp"
+                android:textColor="@drawable/act_state_color"
+                android:background="@drawable/sl_act_type"
+                android:textSize="@dimen/txt46"
+                android:text="待接单"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+            <!--<ImageView-->
+                <!--android:layout_width="@dimen/dim230"-->
+                <!--android:layout_height="@dimen/dim5"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/sl_train_type_icon" />-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_ing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="56dp"
+                android:layout_height="28dp"
+                android:textColor="@drawable/act_state_color"
+                android:background="@drawable/sl_act_type"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="运输中"
+                android:textSize="@dimen/txt46" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_finish"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="56dp"
+                android:layout_height="28dp"
+                android:textColor="@drawable/act_state_color"
+                android:background="@drawable/sl_act_type"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="已送达"
+                android:textSize="@dimen/txt46" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_not"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="56dp"
+                android:layout_height="28dp"
+                android:textColor="@drawable/act_state_color"
+                android:background="@drawable/sl_act_type"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="全部"
+                android:textSize="@dimen/txt46" />
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/tcccccd" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_goods"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+
+    <include layout="@layout/comm_menus"/>
+
+
+</LinearLayout>

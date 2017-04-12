@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+
+    >
+    <RelativeLayout
+        android:id="@+id/rl_dialog_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/version_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发现新版本"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            />
+
+    <TextView
+    android:id="@+id/desc_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="更新内容如下"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="30dp"
+
+
+    />
+        <LinearLayout
+            android:id="@+id/ll_buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+        android:id="@+id/dialog_ok"
+        android:text="确认"
+        android:background="@drawable/home_btn_background"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+</RelativeLayout>
+
+    <ImageButton
+    android:id="@+id/dialog_cancel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/x"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="20dp"
+    />
+
+
+
+
+    </RelativeLayout>

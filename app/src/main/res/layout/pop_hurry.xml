@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dim1230"
+    android:background="@drawable/bg_pop"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1230"
+        android:background="#f0f0f0"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/lv1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="@color/line_color"
+                android:dividerHeight="@dimen/dim1"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="@dimen/dim1"
+                android:layout_height="match_parent"
+                android:background="@color/line_color"
+                android:contentDescription="@string/app_name" />
+
+            <ListView
+                android:id="@+id/lv2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="@color/line_color"
+                android:dividerHeight="@dimen/dim1"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="@dimen/dim1"
+                android:layout_height="match_parent"
+                android:background="@color/line_color"
+                android:contentDescription="@string/app_name" />
+
+            <ListView
+                android:id="@+id/lv3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="@color/line_color"
+                android:dividerHeight="@dimen/dim1"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim1"
+            android:background="@color/line_color"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim85">
+
+            <ImageView
+                android:layout_width="@dimen/dim119"
+                android:layout_height="@dimen/dim36"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_slide" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_holder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>
