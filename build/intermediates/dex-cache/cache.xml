@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.android.support-support-core-ui-25.0.0_de9a72420fc26b46037241eb391fe5217eb6ce4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/comm_library_pulltorefresh/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="66ce73158acd47d35db81464fd236feaec0b9739">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/intermediates-exploded-aar-comm_library_pulltorefresh_3646e6a2c69ff752bcd7d69dd2e089a0d0db0259.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/libs/AMap_Search_V3.3.0_20160616.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c48cb8f3e8bde93009a28c13b0f7b984b3039d3b">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/AMap_Search_V3.3.0_20160616_e63c9bd0f65e7e0bb29b02edb4cde829d7ac2efe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/me.shaohui.advancedluban/library/1.3.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="203f86b303ba8cf1473a5495f94121466af023b0">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/me.shaohui.advancedluban-library-1.3.2_646cf9fa49db1cfb6a87b79a0d9fefcf3cf50e3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment/teamlibrary/unspecified/jars/libs/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="886ad2496dcf45a0ce9c0382013a88992d6e51a0">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/eventbus-3.0.0_047f73429a21f31f0e737f993b11eaa790f398b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/internal_impl-25.0.0_e8ba28cc04babfd67dd23d90ec8ba5f104a303de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.antfortune.freeline/runtime/0.8.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="611bdfa0266e6a0bb9865118c5206b0d992f91d9">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.antfortune.freeline-runtime-0.8.2_c7fe1a7d56016bd6f5ec32d602584e06ba035dc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/io.reactivex-rxandroid-1.2.1_d25146163b83bc5b0014f412db41eef62979e17f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.1/4e4cfa4adc74521d5966799fa5ab70b733552f68/rxjava-1.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4e4cfa4adc74521d5966799fa5ab70b733552f68">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/rxjava-1.2.1_9834ae309a3e4794d955b7035095dd3982dc5e90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment/teamlibrary/unspecified/jars/libs/jpush-android-2.1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a548662b335bcdb105d87c151f8a188bbd39e069">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/jpush-android-2.1.7_70d57bc3cffc2bd60002bafca7b5e55461db5da9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment/teamlibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b382b0796f4e2ae2db6eea14e94bed26f0f6d647">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/hcxfragment-teamlibrary-unspecified_0cc6fb3b020614d3f8ee3e3a584c1392538a1e12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.android.support-support-media-compat-25.0.0_31f118d69aa0920924f7bea4ba06b0a3cc2549d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.antfortune.freeline/runtime-no-op/0.8.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="048defdec7cd2f8cfaed9ffa770cf7c2422eb782">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/release/com.antfortune.freeline-runtime-no-op-0.8.2_a58e434fbbc9a2470b7ba6dfdf27f0fc00e6d4f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/me.grantland/autofittextview/0.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="972ca945f0cf5ff0765ab94fa8e1a90661ea197a">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/me.grantland-autofittextview-0.2.1_77a19290ac765e235daf6dbc60047a615a1e71d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.android.support-appcompat-v7-23.2.0_fcdccd3eac2cc3a4737a8a3fd6915365c0c6efc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment/teamlibrary/unspecified/jars/libs/gson-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7da55c2675973ef50283d74fe44736ba43cd0ec">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/gson-2.1_32682935f5fe72d4486ba7bd02d60887224bc45a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment.lib/pingpp/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b053d7abb42826bccc35261389335a39772a9833">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/hcxfragment.lib-pingpp-unspecified_cd7b7d2fd097063df6915f51145d6841950dab9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/libs/AMap3DMap_4.0.1_AMapNavi_1.9.3_AMapLocation_3.0.0_20161014.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="18996fc21a78571fba015209fcfd8df6adc5162d">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/AMap3DMap_4.0.1_AMapNavi_1.9.3_AMapLocation_3.0.0_20161014_46c000524a0b325a06c4a9cb0b5bfd04b405bcd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment.lib/pingpp/unspecified/jars/libs/UPPayPluginExPro.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9f8d97ccf851e74ef0f17272a0ab794e61ad8276">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/UPPayPluginExPro_54d4d3d235c9ab6039b17fba3d21b91d4525fda1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/.gradle/caches/modules-2/files-2.1/com.umeng.analytics/analytics/6.1.0/8d988e1e13f64c0e8e9d935e347f510f712b376b/analytics-6.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8d988e1e13f64c0e8e9d935e347f510f712b376b">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/analytics-6.1.0_ac2e6ca6537e222d24a78446b746e65724470ef8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment.lib/pingpp/unspecified/jars/libs/mqqopenpay.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="78d6c29acae3ab744e29e3f03b65068056576157">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/mqqopenpay_3890cec73b53f84de05e08f1caca030310c55d6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.darsh.multipleimageselect/multipleimageselect/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="91a335dab6fcecb5f15f9f19e960e02bb3e699aa">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.darsh.multipleimageselect-multipleimageselect-1.0.4_4e007fc3af8cb37944eb3879ef673f809bd9dcda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.soundcloud.android.crop/lib_crop/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2013b068d3aecc7d4a96f39d343686bcd4a84a63">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.soundcloud.android.crop-lib_crop-1.0.0_64611b0e09c1751cfd3a2e2f2772907afc363404.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/support-annotations-25.0.0_2b2b1842747c8127451d6d6697310acacbb3276b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/internal_impl-25.0.0_4db512522cffa6e241ae0131ea4f2d0a5c588146.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/internal_impl-25.0.0_77120cd4f5c63df52de30001c517ea08ed1f6faf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment.lib/pingpp/unspecified/jars/libs/libpingpp-2.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="04541cd6915f84c2bde1de84b302cb1548cd1691">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/libpingpp-2.1.4_a2e8f4d0567d2fc8c45d99e3580870d91df925fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment/teamlibrary/unspecified/jars/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6986dec9fc940599f6557c73866d04fe329e2e92">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/universal-image-loader-1.9.3_a78b44ab233c02243ee2fe6beae9ddda72b8dff1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment.lib/pingpp/unspecified/jars/libs/alipaySdk-20160223.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3ec5c0bdd523843f88c9e8c5567272fe21e15ec7">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/alipaySdk-20160223_18b44000d52b198ed6363148361c8f547a6d21cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment/teamlibrary/unspecified/jars/libs/analyticslib1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2f152fbed96ecede0f30579fe81b5a03e0a70270">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/analyticslib1.1_bc6f35b05362ab6b4299429e0bd42afbf3db0eb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.android.support-support-fragment-25.0.0_e6610dc7e8a35ff46647732df117328e1ead9e68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.0/a7537446a030da8eb0da4c71424d16c2589f6c4a/glide-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/glide-3.6.0_5523b6a3ec47058fcaced440a6b6c16facecaaf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment/teamlibrary/unspecified/jars/libs/httpmime-4.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1d78fd95cfbd4d8fb6f8726347fa3bda24d162ee">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/httpmime-4.1.3_86711b07c95df0acb853b2f1b36140764759f933.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.android.support-animated-vector-drawable-23.2.0_9991623aa604e2e92b58d18ce4caa483f5006dc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/internal_impl-25.0.0_4f1343019dc166179a55fc961c09018382b144ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment.lib/pingpp/unspecified/jars/libs/cmbkeyboard.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="beb634b2ec37aa32956fc3e54d2a610c95b973de">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/cmbkeyboard_9c49d2545bab8ce6477e60a58e18ef201e06af99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.android.support-support-core-utils-25.0.0_a0f9060d5398d9c0b6d70161ad916c891e1e1d7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.android.support-support-vector-drawable-23.2.0_011dfc59195eb443b5b4aef1891c79c1a24771fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment/teamlibrary/unspecified/jars/libs/butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="045fb2cfdb71150d2ee00926e5f10f13efe81186">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/butterknife-7.0.1_ec2a0b8cc73a960c32e0c5c879fa35fdd1fde186.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="89431f8e8b6d5d187364cef8fcdc690ba0ed28d2">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.jph.takephoto-takephoto_library-4.0.3_e32f5011684b6da58c0b53d2eaf0d822a70f36fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.android.support-support-compat-25.0.0_456ec40f573ee3922aafe35cc8191d565bc7328a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.android.support-support-v4-25.0.0_bc6ffe09257635f575a6c53df18c22ff0fe3f25c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/internal_impl-25.0.0_e53c16103e379274307abe341746890af7edfce7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/com.android.support-recyclerview-v7-23.2.0_3b7733e83b48f4789afcc4dfe241c3a29c2d5316.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/libs/Msc.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="14e02a95fa56eb18b385a4f156b4fb14d4721df4">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/Msc_155a0099a8582496baa1a8544ae731a8c7e6f906.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment.lib/pingpp/unspecified/jars/libs/libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b0a97f76f6eedd828815dc1b774fef5047b73e81">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/libammsdk_263956082486b230088e5f53c973d1546a86a9a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/exploded-aar/hcxfragment.lib/pingpp/unspecified/jars/libs/UPPayAssistEx.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26643438730327d6161b04a6a2908f69de3c9af0">
+        <dex dex="/Users/qundui/Desktop/hcxfragment/app/build/intermediates/pre-dexed/QQ/debug/UPPayAssistEx_8679fabad3ff05b579cf686ab9934a4e1b560d34.jar" />
+    </item>
+
+</items>

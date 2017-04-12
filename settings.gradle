@@ -1,0 +1,1 @@
+include ':app', ':teamlibrary', ':lib:bdwallet_pay_sdk', ':lib:pingpp'

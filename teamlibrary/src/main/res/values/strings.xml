@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">TeamLibrary</string>
+
+
+
+
+
+
+    <!--<string name="debug_head_url">http://192.168.0.108:8080/qunduiapi/http/accessPortal/accessPortal.action</string>-->
+    <!--<string name="debug_image_url">http://192.168.0.108:8080/qundui-manager/</string>-->
+
+    <!--<string name="online_head_url">http://192.168.0.108:8080/qunduiapi/http/accessPortal/accessPortal.action</string>-->
+    <!--<string name="online_image_url">http://192.168.0.108:8080/qundui-manager/</string>-->
+    <!--<string name="online_record_address">http://192.168.0.108:8080/qunduiapi/http/accessPortal/accessPortal.action</string>-->
+
+    <!--<string name="upload_url">http://bmc.huochexia.com/simplefileserver/upload</string>-->
+    <!--<string name="track_url">http://192.168.0.108:8080/qunduiapi/http/qundui/business/getHFShelf.action</string>-->
+
+
+
+    <!--<string name="debug_head_url">http://192.168.0.100:8080/qunduiapi/http/accessPortal/accessPortal.action</string>-->
+    <!--<string name="debug_image_url">https://bmc.huochexia.com/qundui-manager/</string>-->
+
+    <!--<string name="online_head_url">http://192.168.0.100:8080/qunduiapi/http/accessPortal/accessPortal.action</string>-->
+    <!--<string name="online_image_url">http://192.168.0.100:8080/qundui-manager/</string>-->
+    <!--<string name="online_record_address">http://192.168.0.100:8080/qunduiapi/http/accessPortal/accessPortal.action</string>-->
+
+    <!--<string name="upload_url">http://bmc.huochexia.com/simplefileserver/upload</string>-->
+
+
+
+
+    <!--<string name="debug_head_url">http://192.168.0.107:8080/qunduiapi/http/accessPortal/accessPortal.action</string>-->
+    <!--<string name="debug_image_url">https://bmc.huochexia.com/qundui-manager/</string>-->
+
+    <!--<string name="online_head_url">http://192.168.0.107:8080/qunduiapi/http/accessPortal/accessPortal.action</string>-->
+    <!--<string name="online_image_url">http://192.168.0.107:8080/qundui-manager/</string>-->
+    <!--<string name="online_record_address">http://192.168.0.107:8080/qunduiapi/http/accessPortal/accessPortal.action</string>-->
+
+    <!--<string name="upload_url">http://bmc.huochexia.com/simplefileserver/upload</string>-->
+
+
+
+
+
+
+
+
+
+
+    <string name="online_head_url">https://bmc.huochexia.com:8443/qunduiapi/http/accessPortal/accessPortal.action</string>
+    <string name="online_image_url">https://bmc.huochexia.com/qundui-manager/</string>
+    <string name="online_record_address">https://bmc.huochexia.com:8443/qunduiapi/http/accessPortal/accessPortal.action</string>
+
+    <string name="upload_url">https://bmc.huochexia.com/simplefileserver/upload</string>
+    <string name="track_url">https://bmc.huochexia.com/qundui/track/report.action</string>
+
+    <string name="debug_head_url">https://bmc.huochexia.com:8443/qunduiapi/http/accessPortal/accessPortal.action</string>
+    <string name="debug_image_url">https://bmc.huochexia.com/qundui-manager/</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 系统级别数据提示信息 -->
+    <string name="tip_finishapp">再按一次返回键退出!</string>
+    <string name="tip_login">您还没有登录，请先登录!</string>
+    <!-- 网络请求 -->
+    <string name="ui_loading">加载中…</string>
+    <string name="ui_net_request">正在请求数据，请稍后...</string>
+    <string name="err_data">数据格式错误</string>
+    <string name="err_net">网络异常</string>
+    <string name="err_unknow">服务器异常</string>
+    <string name="err_timeout">请求超时</string>
+    <!-- 列表提示 -->
+    <string name="list_view_no_data">暂无数据\n点击进行刷新</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+</resources>

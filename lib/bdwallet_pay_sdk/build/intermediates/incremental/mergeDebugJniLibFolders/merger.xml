@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/qundui/Desktop/hcxfragment/lib/bdwallet_pay_sdk/libs"><file name="Cashier_SDK-v4.2.2.jar" path="/Users/qundui/Desktop/hcxfragment/lib/bdwallet_pay_sdk/libs/Cashier_SDK-v4.2.2.jar"/></source></dataSet><dataSet config="debug"><source path="/Users/qundui/Desktop/hcxfragment/lib/bdwallet_pay_sdk/src/debug/jniLibs"/></dataSet></merger>

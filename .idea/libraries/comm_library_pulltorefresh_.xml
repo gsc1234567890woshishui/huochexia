@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="comm_library_pulltorefresh-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/comm_library_pulltorefresh/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/comm_library_pulltorefresh/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

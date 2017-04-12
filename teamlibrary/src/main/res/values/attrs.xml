@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyImageView">
+        <attr name="hightweight" format="integer" />
+        <attr name="widthtweight" format="integer" />
+    </declare-styleable>
+</resources>

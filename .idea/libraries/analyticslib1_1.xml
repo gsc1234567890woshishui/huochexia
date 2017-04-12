@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="analyticslib1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/teamlibrary/libs/analyticslib1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
